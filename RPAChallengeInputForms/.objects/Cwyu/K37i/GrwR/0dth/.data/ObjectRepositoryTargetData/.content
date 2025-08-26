@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TpjpQ7K2ZUuFJCWif51aCA" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/0dthvAEbU0i8ORKZi9LqLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" DesignTimeRectangle="19, 810, 454, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*Download Excel*' tag='A' visibleinnertext='DOWNLOAD EXCEL*' /&gt;" Guid="f77cb4ff-adc0-4482-bb9f-da0badd5ce6a" ImageBase64="" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_Link + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="61ea811278920895b40a4ee04892fa78.png" xmlns="">0ixBvEDRHxEOJyp2q95PCSQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

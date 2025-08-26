@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4P4-q2m24UGGQiyUXU5D5A" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/ULgrzKxDF0OKz2DsV2uBqQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" DesignTimeRectangle="19, 810, 454, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*Download Excel*' tag='A' visibleinnertext='DOWNLOAD EXCEL*' /&gt;" Guid="7683c159-7ea9-4490-89db-3ead9ac81099" ImageBase64="" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_RPAChallengeInputForms + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="61ea811278920895b40a4ee04892fa78.png" xmlns="">017qRMpEG1kuozHaWTuS4tA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

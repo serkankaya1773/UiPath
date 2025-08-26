@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="opU3WM3xXUep6asFBYrpkA" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/a870B33gfEOw_pdsoNSSGQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="af0a98e9-9ab3-4782-9cac-17d5d744f939" DesignTimeRectangle="496, 346, 1247, 30" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl class='message2' tag='DIV' aaname='Your success rate is *% ( * out of 70 fields) in * milliseconds' /&gt;" Guid="fc017ebb-14d9-458d-b44e-070a7c059810" ImageBase64="" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_RPAChallengeInputForms + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="eeb81aea13950b09f4c00654caa9c4a2.png" xmlns="">0CE5ECFIL9Uq-N8WprYnDVQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

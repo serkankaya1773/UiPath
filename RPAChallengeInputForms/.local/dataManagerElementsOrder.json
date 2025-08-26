@@ -1,0 +1,310 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "variable1&StateMachine_1",
+        "variable2&StateMachine_1",
+        "ShouldStop&Sequence_25"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ConstantWFs/KillAllProcesses.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkFlowName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ProcessesToKill"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_QueueData&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S1_Init/AddQueueItem.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_FirstName&Sequence_18",
+        "str_LastName&Sequence_18",
+        "str_CompanyName&Sequence_18",
+        "str_RoleinCompany&Sequence_18",
+        "str_Address&Sequence_18",
+        "str_Email&Sequence_18",
+        "str_PhoneNumber&Sequence_18",
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dt_QueueData",
+        "in_OQFolder",
+        "in_OQName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Init/GetQueueData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputElement&Sequence_1",
+        "ExtractDataTable&Sequence_1",
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dt_QueueData",
+        "in_URL_Link"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ConstantWFs/SetTransactionStatus.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueRetry&Sequence_17",
+        "ScreenshotPath&Sequence_17"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_BusinessException",
+        "in_TransactionField1",
+        "in_TransactionField2",
+        "in_TransactionID",
+        "in_SystemException",
+        "in_Config",
+        "in_TransactionItem",
+        "io_RetryNumber",
+        "io_TransactionNumber",
+        "io_ConsecutiveSystemExceptions"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ConstantWFs/TakeScreenshot.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Screenshot&Sequence_1",
+        "ScreenshotFileInfo&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Folder",
+        "io_FilePath"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ConstantWFs/CloseAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S1_Init/ClickStart.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_URL_RPAChallengeInputForms"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S1_Init/ReadInputForms.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Sheet0&Sequence_1",
+        "str_WorkFlowName&Sequence_1",
+        "ReadDataTable&Sequence_1",
+        "str_FilePath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_ReadDataTable",
+        "in_pathInput",
+        "in_inputFile"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S1_Init/DownloadInputForms.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "bool_FileExist&Sequence_1",
+        "str_WorkFlowName&Sequence_1",
+        "str_FilePath&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_URL_RPAChallengeInputForms",
+        "in_inputFile",
+        "in_pathInput"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SingleForm&Sequence_1",
+        "str_PhoneNumber&Sequence_1",
+        "str_Email&Sequence_1",
+        "str_Address&Sequence_1",
+        "str_RoleinCompany&Sequence_1",
+        "str_CompanyName&Sequence_1",
+        "str_LastName&Sequence_1",
+        "str_FirstName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ConstantWFs/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S2_Process/AddInputForms.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_dt_InputData",
+        "in_URL_RPAChallengeInputForms"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/ConstantWFs/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S2_Process/CreateSingleFormDT.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_dt_SingleForm"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S2_Process/BuildSingleFormDT.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_str_PhoneNumber",
+        "in_str_Email",
+        "in_str_Address",
+        "in_str_RoleinCompany",
+        "in_str_CompanyName",
+        "in_str_LastName",
+        "in_str_FirstName",
+        "io_dt_InputData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S3_End/GetScore.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "str_Score&Sequence_1",
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_URL_RPAChallengeInputForms"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "S1_Init/CleanQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "QueueItems&Sequence_2",
+        "str_WorkFlowName&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OQName",
+        "in_OQFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

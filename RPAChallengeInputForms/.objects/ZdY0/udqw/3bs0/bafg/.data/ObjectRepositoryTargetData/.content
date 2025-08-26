@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gaD8bPcqvUK1SebpyCclsw" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/bafg2PWIiUSJUMFjwGznwg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="fb880290-e6d5-48ec-b333-d056d44fbf95" DesignTimeRectangle="19, 777, 454, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*Download*' tag='A' /&gt;" Guid="9ff1d313-197b-468a-8440-3cf3e2010ee0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="3c7dbf735cdace2ceb8650e430725953.png" xmlns="">0e46no3pKbk61GiMi0fyYKw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

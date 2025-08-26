@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7kiWQFiglU-dIwuzfX3g-g" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/-NlmT9erikGVNoTCSuhNbg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="e82718c6-0aed-4443-bc06-086f1db5383f" DesignTimeRectangle="584, 596, 116, 36" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' type='submit' aaname='Submit' /&gt;" Guid="b3fc7ca0-8e92-46a4-8516-ae8d2f764b73" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_RPAChallengeInputForms + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="4b3eff50ac647e39c5031e06440a096d.png" xmlns="">03MdbGGfglEq-6p0U4EzDqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

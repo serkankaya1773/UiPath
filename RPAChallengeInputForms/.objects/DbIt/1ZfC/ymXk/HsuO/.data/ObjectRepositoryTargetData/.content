@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gwvSpLx4N0Cx0vVH3NJZEw" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/HsuOUgiiO0W8DO5hrnFFog" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="0206c3ed-f687-4adc-b7dd-78aed59a1f48" DesignTimeRectangle="596, 265, 398, 46" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="9110a781-a8b7-4375-ab2c-3b247fa6a93b" IsResponsive="True" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_RPAChallengeInputForms + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="0206c3ed-f687-4adc-b7dd-78aed59a1f48" DesignTimeRectangle="596, 245, 63, 17" ElementType="Text" FullSelectorArgument="[&quot;&lt;webctrl tag='LABEL' aaname='&quot;+ currentDataColumn.ColumnName +&quot;' visibleinnertext='&quot;+ currentDataColumn.ColumnName +&quot;' /&gt;&quot;]" Guid="622f52a6-790a-4203-bbb1-056db222dbab" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9e88d28c39ef6a4f350a41f8094a7259.png" xmlns="">0qV97nztV3UKdQouO04S73w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
