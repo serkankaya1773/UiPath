@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0jzz_IPb3kCRMSVoz1GeQA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="banaozel.sahibinden.com" CVScreenId="2aa6db41-50b8-4c8d-a967-bbabb7a3f4fc" DesignTimeRectangle="469, 105, 160, 34" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' aaname='*sahibinden.com*' class='sahibinden-logo ng-isolate-scope' /&gt;" Guid="8606462f-0a57-4a68-95df-faa703f8018f" ScopeSelectorArgument="&lt;html app='chrome.exe' url='https://banaozel.sahibinden.com/' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d0edc3782ecefb6bd3f84f857d3d6a34.png" xmlns="">09MexzGp2eU2oAIzTchR0Pg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

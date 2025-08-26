@@ -1,0 +1,13 @@
+﻿{
+  "Name": "DIV myGarageWalkThrough",
+  "Type": "Element",
+  "Id": "389rE9y6fU-wuq40LFfQNg",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/389rE9y6fU-wuq40LFfQNg",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/9OrfBucxrUKEmtTufkOh_g",
+  "Created": "2025-05-04T07:02:15.5781795Z",
+  "Updated": "2025-05-04T07:02:15.5781795Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Log in Site",
+  "Type": "Screen",
+  "Id": "u6rRf910p02PFCKQ0ZoFeQ",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/u6rRf910p02PFCKQ0ZoFeQ",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/MFfOGp0TvU6A8xZJQwtNLQ",
+  "Created": "2025-04-14T21:45:43.5903348Z",
+  "Updated": "2025-04-14T21:45:43.5903348Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="__BPGaitCEW6-Eh31PvzfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.sahibinden.com/cs/tloading" CVScreenId="06d280cf-632d-4a27-9622-fb559a20ffe1" DesignTimeRectangle="573, 452, 790, 68" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='turnStileWidget' tag='DIV' /&gt;" Guid="b51bc4b8-c4e3-4567-9f65-ad38856ef57f" ScopeSelectorArgument="&lt;html app='chrome.exe' url='https://secure.sahibinden.com/cs/tloading?returnUrl=https%3A%2F%2Fwww.sahibinden.com' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="55841039549b12efc783a0d4cb48075f.png" xmlns="">0q-OrPSziNkim1t-PV1ixag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

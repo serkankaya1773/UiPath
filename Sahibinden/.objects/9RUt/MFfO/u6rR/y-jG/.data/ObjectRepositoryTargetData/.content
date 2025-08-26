@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FYGqmmy8VU25E5Fgxhlctg" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/y-jGwL3p80C3BLkDCheFrQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="4254f837-bffe-417d-80f7-1226e1e80442" DesignTimeRectangle="468, 426, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='email' tag='INPUT' aaname='Email:' class='form-control ' /&gt;" Guid="bce96e3a-a715-4725-8689-bdcb4ab45d9e" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_LoginTemplate + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="e1adc027766d91c59e364d31c9c7143d.png" xmlns="">010TMknxk4UmMLbpVyXm8AQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

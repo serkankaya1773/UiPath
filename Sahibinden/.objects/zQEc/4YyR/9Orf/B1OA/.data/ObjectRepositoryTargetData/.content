@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YLk8P_tnik-xUtH8-sxJXQ" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/B1OAXcQNTk-zTKNux60nCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/oto360" CVScreenId="ece74718-c696-4aa5-87cb-558874a43dc6" DesignTimeRectangle="1066, 219, 40, 40" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='wt-close-btn' parentid='wt-content' tag='DIV' /&gt;" Guid="c96a9c95-4555-48a0-8b54-c294ad15f34f" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_Sahibinden + &quot;*oto360*' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="4d6ecb4f341511b0cd58568bf50edf17.png" xmlns="">0gM7GR141AkejpqofqRzRWQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

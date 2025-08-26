@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SywEgcBeakKwTfbcfY6hmw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="529, 371, 24, 25" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;ctrl name='Just a moment...' role='document' /&gt;&lt;ctrl name='Widget containing a Cloudflare security challenge' role='document' /&gt;&lt;ctrl name='Checking your Browser…' role='document' /&gt;&lt;ctrl name='Verify you are human' role='check box' /&gt;" Guid="7ae84648-27c0-4b08-94dd-10c01c838ad3" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' title='Just a moment... - Google Chrome' /&gt;" SearchSteps="Selector" SelectionStrategy="AA" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="415637e0-9d09-4ecd-b037-bedc7ec7d447" CvElementArea="511, 349, 303, 68" CvTextArea="559, 377, 134, 16" CvTextArgument="Verify you are human" CvType="Button" DesignTimeRectangle="561, 374, 132, 19" ElementType="Text" FullSelectorArgument="&lt;ctrl name='Just a moment...' role='document' /&gt;&lt;ctrl name='Widget containing a Cloudflare security challenge' role='document' /&gt;&lt;ctrl name='Checking your Browser…' role='document' /&gt;&lt;ctrl name='Verify you are human' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl name='Just a moment...' role='document' /&gt;&lt;ctrl name='Widget containing a Cloudflare security challenge' role='document' /&gt;&lt;ctrl name='Checking your Browser…' role='document' /&gt;&lt;ctrl name='Verify you are human' role='text' automationid='' check:text='Verify you are human' /&gt;" Guid="f41ff90f-897c-4726-8055-ba65b520bbcd" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2b9eedcbfa9e934f292cc3747b2ecc7b.png" xmlns="">0YH_2YuWC30yrzb6eBdwg8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Check</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

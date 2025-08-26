@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yGQQp2awWkqDlvHfruMdlw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.sahibinden.com/cs/tloading" CVScreenId="e27d943f-cf7d-4017-9aeb-e0cad90a841c" DesignTimeRectangle="924, 396, 88, 41" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Devam Et' /&gt;" Guid="fda3b78b-ca9b-45e6-a859-e0e22f860395" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' url='https://secure.sahibinden.com/cs/tloading?returnUrl=https%3A%2F%2Fwww.sahibinden.com' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="22db95a779ae58a9706a720c992b191a.png" xmlns="">03rR6rmBgvUOmgtlQWtQQBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

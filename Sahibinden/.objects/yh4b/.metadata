@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Open Sahibinden(2)",
+  "Type": "App",
+  "Id": "yh4bxjNsx0yPhVvkWx9iww",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/yh4bxjNsx0yPhVvkWx9iww",
+  "Created": "2025-05-06T12:52:20.0871538Z",
+  "Updated": "2025-05-06T12:52:20.0871538Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

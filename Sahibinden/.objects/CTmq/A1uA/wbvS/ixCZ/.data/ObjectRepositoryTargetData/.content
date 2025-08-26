@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PVC_rMbgUUOdyyZgKaUOAg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.sahibinden.com/login" DesignTimeRectangle="764, 196, 430, 80" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='infoBoldText' tag='H6' aaname='             In order to provide you a better experience,  to sahibinden.com.              Sign up for free if you do not have an account . (G75MCFAP-0623)         ' /&gt;" Guid="793e651e-175d-4b02-a5ff-eccc06c0acb6" ScopeSelectorArgument="&lt;html app='chrome.exe' title='sahibinden.com user login' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0f1bd4444a928bbe230db77055319c55.png" xmlns="">0MJO7fA68Dk2jLKUSNKjJSg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

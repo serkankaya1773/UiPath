@@ -1,0 +1,13 @@
+﻿{
+  "Name": "New application",
+  "Type": "Screen",
+  "Id": "Y049Y3jR7UOe6dLwgywlcw",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/Y049Y3jR7UOe6dLwgywlcw",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/A1uAT-DrhkeoPZcwJtLSHg",
+  "Created": "2025-04-30T09:12:33.8013812Z",
+  "Updated": "2025-04-30T09:12:33.8013812Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

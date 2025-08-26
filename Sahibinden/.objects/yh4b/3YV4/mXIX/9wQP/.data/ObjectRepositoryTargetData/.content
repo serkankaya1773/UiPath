@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="-oXZrpvE-kGRHUlTO9Pglw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/satilik-daire/ankara-altindag" DesignTimeRectangle="657, 346, 127, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='currentFilters' tag='A' type='' class='facetedFilteredLink' aaname='                             Ankara, Altındağ' /&gt;" Guid="dc751fc4-5b04-4495-b3e9-f1f035ab445a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Altındağ Satılık Daire İlanları ve Satılık Ev Fiyatları - sahibinden.com' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="cb9abbb349327d3d8fd750b84f916142.png" xmlns="">0KJ5jTF7uWE6ma4nI07UsVw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

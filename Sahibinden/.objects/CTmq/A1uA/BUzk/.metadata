@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Just a moment...(1)",
+  "Type": "Screen",
+  "Id": "BUzki2PgEEiK0QATj79wgA",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/BUzki2PgEEiK0QATj79wgA",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/A1uAT-DrhkeoPZcwJtLSHg",
+  "Created": "2025-04-30T09:19:15.1885393Z",
+  "Updated": "2025-04-30T09:19:15.1885393Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

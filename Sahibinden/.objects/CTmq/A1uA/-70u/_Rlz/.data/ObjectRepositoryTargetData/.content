@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2tRf8_nKLkGIMsP7EH8_AA" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/_Rlz-lHZw0GKhPY17sI6ZA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.sahibinden.com/cs/checkLoading" CVScreenId="0a92953a-762d-4781-8c15-4fed2420178b" CvElementArea="528, 405, 26, 27" CvType="CheckBox" DesignTimeRectangle="528, 405, 26, 26" DesignTimeScaleFactor="1" ElementType="CheckBox" Guid="b993022f-0388-419d-9790-498660ec44b8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Just a moment...' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="c90a29ad11bc278df96d2be4c9e6be56.png" xmlns="">016ADagxkGEmB0dClOzuZGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

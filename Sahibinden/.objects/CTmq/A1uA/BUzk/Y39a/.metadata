@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'sahibinden.com anasayfa…'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "Y39aULn8SkGeCDinYKqKyw",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/Y39aULn8SkGeCDinYKqKyw",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/BUzki2PgEEiK0QATj79wgA",
+  "Created": "2025-04-30T09:19:15.4497715Z",
+  "Updated": "2025-04-30T09:19:15.4497715Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

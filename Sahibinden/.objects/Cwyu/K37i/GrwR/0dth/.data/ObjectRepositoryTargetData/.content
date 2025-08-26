@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KsOsrHDwa0uBGC4xzbrkpg" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/0dthvAEbU0i8ORKZi9LqLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/login" CVScreenId="1231c5a2-4c39-4fc3-bada-9dc067a27c5c" DesignTimeRectangle="398, 219, 1140, 50" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='*' tag='*' visibleinnertext='*' /&gt;" Guid="04a15691-69b5-45ef-9fc0-2d852ef029b0" ImageBase64="" ScopeSelectorArgument="[&quot;&lt;html app='chrome.exe' url='&quot; + in_URL_Link + &quot;' /&gt;&quot;]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+      <imageRef attrName="InformativeScreenshot" originalValue="33f2c40c7ad8576bd9f687927c4c1f2d.png" xmlns="">0Xu-9w9OglkuGNQNMiqgSKQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

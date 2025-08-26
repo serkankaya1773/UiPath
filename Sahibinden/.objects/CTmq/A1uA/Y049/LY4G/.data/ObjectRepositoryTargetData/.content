@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PoQ8vnGdQEmd3Wf2_PSglg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="secure.sahibinden.com/cs/checkLoading" CVScreenId="9404353f-565d-4a63-b61e-d87ef5280a4c" DesignTimeRectangle="512, 317, 912, 36" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='P' aaname='Verify you are human*' /&gt;" Guid="a4cd287d-3247-47ee-a4f1-1ca4fdaeb3d0" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' url='https://secure.sahibinden.com/*' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="afe229c6018c99e357419ea8ae6729ae.png" xmlns="">0YWCj9JYJVU2bOqegRzG2Og</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

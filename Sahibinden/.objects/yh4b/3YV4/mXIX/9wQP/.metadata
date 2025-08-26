@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Ankara, Altındağ",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9wQPr2c9Y0S_pqfb3MlbQg",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/9wQPr2c9Y0S_pqfb3MlbQg",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/mXIXiFJB90K10iTDB7_uRA",
+  "Created": "2025-05-06T12:52:20.4187291Z",
+  "Updated": "2025-05-06T12:52:20.4187291Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="iJ2JhlhR1EuGTixpce1UoA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="8bf3b216-2651-484b-983a-3cf083e42825" DesignTimeRectangle="0, 0, 0, 0" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl role='pane' /&gt;&lt;ctrl name='Close' role='push button' /&gt;" Guid="500000b2-c459-48b9-9a17-a1dbe8634978" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='Chrome_WidgetWin_1' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0b65804b2e04bd68695f098a43c70abf.png" xmlns="">0z6ozEwsiPkmFwrW-8_xEDg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

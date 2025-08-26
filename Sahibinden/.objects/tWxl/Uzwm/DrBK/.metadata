@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Open Sahibinden",
+  "Type": "Screen",
+  "Id": "DrBKCVGUGECp4i9m5PDxAw",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/DrBKCVGUGECp4i9m5PDxAw",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/UzwmR2SKx0yTgQK4N-Rd1A",
+  "Created": "2025-05-06T09:46:09.2242748Z",
+  "Updated": "2025-05-06T09:46:09.2242748Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

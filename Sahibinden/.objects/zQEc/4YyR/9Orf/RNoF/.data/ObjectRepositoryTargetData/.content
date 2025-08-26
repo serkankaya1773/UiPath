@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bgvJ__X3aU2lne1QOMnwSg" Reference="D8jNY3I7q0e6ZFK-gu6-Dw/RNoFFbdPk0GHeJhNvD__Lg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/oto360" DesignTimeRectangle="694, 265, 420, 152" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl class='desc-text' parentid='wt-content' tag='DIV' /&gt;" Guid="aeab9b27-0315-44e0-8204-2ae3d6778b35" ScopeSelectorArgument="&lt;html app='chrome.exe' url='https://www.sahibinden.com/oto360' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7294772ec4472d89f7c6e98a12bc44df.png" xmlns="">0ftT6AyGNtkqdi4uMJzkutw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w0Qz0A4U_k-k0mf2qobsGw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="sahibinden.com/kiralik-daire/malatya-battalgazi" CVScreenId="0f0689dc-056c-41bc-a190-01329fb7ad4e" DesignTimeRectangle="717, 422, 636, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='saveSearchResult' tag='SPAN' aaname='*Arama filtrelerine uygun ilan bulunamadı.' /&gt;" Guid="d6424b20-6742-4ba1-ae8a-50baf5e9c887" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Battalgazi Kiralık Daire Fiyatları ve Kiralık Ev İlanları - sahibinden.com' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="f84e4402ad6adfd96197f9deb1dc94e4.png" xmlns="">0iy2JVx89k0CYGxVDQXx56A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

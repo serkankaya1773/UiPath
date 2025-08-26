@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Verify you are human",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "hklMNX6R40Ok6tI_jNTCUw",
+  "Reference": "D8jNY3I7q0e6ZFK-gu6-Dw/hklMNX6R40Ok6tI_jNTCUw",
+  "ParentRef": "D8jNY3I7q0e6ZFK-gu6-Dw/7rRL_FYAlECSrRWJLRLRSw",
+  "Created": "2025-05-07T07:01:38.2944953Z",
+  "Updated": "2025-05-07T07:01:38.2944953Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
