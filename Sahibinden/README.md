@@ -1,3 +1,5 @@
+<!-- © 2025 Serkan Kaya — serkankaya1773 (GitHub) | linkedin.com/in/serkankaya -->
+
 ### Documentation is included in the Documentation folder ###
 
 
