@@ -121,7 +121,7 @@
       <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Read Sahibinden Ads" sap:VirtualizedContainerService.HintSize="1147,1344" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This WorkFlow: Reads the downloaded email attachment and store it as a datatable further use, Cleans the datatable, Checks if there exists a datatable." DisplayName="Read Sahibinden Ads" sap:VirtualizedContainerService.HintSize="1281,1441" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_WorkFlowName" />
       <Variable x:TypeArguments="sd:DataTable" Name="ReadDataTable" />
@@ -132,17 +132,18 @@
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - Read Sahibinden Ads" sap:VirtualizedContainerService.HintSize="712,1321" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch DisplayName="Try Catch - Read Sahibinden Ads" sap:VirtualizedContainerService.HintSize="712,1387" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="710,682" sap2010:WorkflowViewState.IdRef="Sequence_28">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="710,747" sap2010:WorkflowViewState.IdRef="Sequence_28">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="676,114" sap2010:WorkflowViewState.IdRef="Assign_7">
+          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="676,175" sap2010:WorkflowViewState.IdRef="Assign_7">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[str_WorkFlowName]</OutArgument>
             </Assign.To>
@@ -150,7 +151,7 @@
               <InArgument x:TypeArguments="x:String" xml:space="preserve">Read Sahibinden Ads --&gt; </InArgument>
             </Assign.Value>
           </Assign>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="676,173" sap2010:WorkflowViewState.IdRef="LogMessage_25" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
+          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="676,175" sap2010:WorkflowViewState.IdRef="LogMessage_25" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
           <Sequence DisplayName="Init - Read Sahibinden Ads" sap:VirtualizedContainerService.HintSize="676,57" sap2010:WorkflowViewState.IdRef="Sequence_30">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -344,7 +345,7 @@
             </If>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_34" Message="[str_WorkFlowName + &quot;End Process Ended.&quot;]" />
           </Sequence>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="676,164" sap2010:WorkflowViewState.IdRef="LogMessage_26" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
+          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="676,166" sap2010:WorkflowViewState.IdRef="LogMessage_26" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
@@ -353,13 +354,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="710,173" sap2010:WorkflowViewState.IdRef="Sequence_33">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="710,174" sap2010:WorkflowViewState.IdRef="Sequence_33">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Throw DisplayName="Throw - BE" Exception="[New BusinessRuleException(str_WorkFlowName + exception.Message + &quot; at Source : &quot; + exception.Source)]" sap:VirtualizedContainerService.HintSize="676,113" sap2010:WorkflowViewState.IdRef="Throw_5" />
+              <Throw DisplayName="Throw - BE" Exception="[New BusinessRuleException(str_WorkFlowName + exception.Message + &quot; at Source : &quot; + exception.Source)]" sap:VirtualizedContainerService.HintSize="676,114" sap2010:WorkflowViewState.IdRef="Throw_5" />
             </Sequence>
           </ActivityAction>
         </Catch>

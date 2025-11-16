@@ -101,24 +101,25 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Build Single Row DT" sap:VirtualizedContainerService.HintSize="1287,1230" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This WorkFlow, Adds transaction items to SingleRowDT." DisplayName="Build Single Row DT" sap:VirtualizedContainerService.HintSize="1281,1749" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_WorkFlowName" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - Build Single Row DT" sap:VirtualizedContainerService.HintSize="486,1207" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - Build Single Row DT" sap:VirtualizedContainerService.HintSize="486,1695" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484,568" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484,1055" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_1">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[str_WorkFlowName]</OutArgument>
             </Assign.To>
@@ -126,18 +127,18 @@
               <InArgument x:TypeArguments="x:String" xml:space="preserve">Build Single Row DT --&gt; </InArgument>
             </Assign.Value>
           </Assign>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="450,173" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
-          <Sequence DisplayName="Perform - Build Single Row DT" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_6">
+          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
+          <Sequence DisplayName="Perform - Build Single Row DT" sap:VirtualizedContainerService.HintSize="450,479" sap2010:WorkflowViewState.IdRef="Sequence_6">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object() { in_str_Province, in_str_County, in_str_Type, in_str_Min, in_str_Max, in_str_Total }]" DataTable="[io_dt_SingleRow]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
-            <ui:LogMessage DisplayName="Log Message - Add Data Row" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[str_WorkFlowName + String.Format(&quot;Data Row '{0} - {1}' Added to Data Table '{2}'.&quot;, in_str_Province, in_str_County, str_WorkFlowName.Trim.Replace(&quot; DT --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+            <ui:AddDataRow DataRow="{x:Null}" ArrayRow="[New Object() { in_str_Province, in_str_County, in_str_Type, in_str_Min, in_str_Max, in_str_Total }]" DataTable="[io_dt_SingleRow]" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="416,221" sap2010:WorkflowViewState.IdRef="AddDataRow_2" />
+            <ui:LogMessage DisplayName="Log Message - Add Data Row" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[str_WorkFlowName + String.Format(&quot;Data Row '{0} - {1}' Added to Data Table '{2}'.&quot;, in_str_Province, in_str_County, str_WorkFlowName.Trim.Replace(&quot; DT --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
           </Sequence>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="450,164" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
+          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
@@ -146,13 +147,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,173" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,174" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Throw DisplayName="Throw - BE" Exception="[New BusinessRuleException(str_WorkFlowName + exception.Message + &quot; at Source : &quot; + exception.Source)]" sap:VirtualizedContainerService.HintSize="450,113" sap2010:WorkflowViewState.IdRef="Throw_1" />
+              <Throw DisplayName="Throw - BE" Exception="[New BusinessRuleException(str_WorkFlowName + exception.Message + &quot; at Source : &quot; + exception.Source)]" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Throw_1" />
             </Sequence>
           </ActivityAction>
         </Catch>
