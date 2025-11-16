@@ -1,0 +1,6 @@
+{
+  "Name": "Sahibinden Ad Results",
+  "ProjectType": "Process",
+  "Description": "This project make a search on Sahibinden site according to email attachment and sends results via email.",
+  "MainFile": "Main.xaml"
+}
