@@ -130,7 +130,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This WorkFlow: Clears the input folder to make a clean start, Downloads Email attachment to a specific folder, Checks if the downloaded file exists.&#xD;&#xA;If you want to skip this process to use existing file in input folder instead of downloading new attackment from email, please disable this workflow." DisplayName="Download Gmail Attachment" sap:VirtualizedContainerService.HintSize="1281,1455" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This WorkFlow: Clears the input folder to make a clean start, Downloads Email attachment to a specific folder, Checks if the downloaded file exists." DisplayName="Download Gmail Attachment" sap:VirtualizedContainerService.HintSize="1117,1473" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_WorkFlowName" />
       <Variable x:TypeArguments="scg:List(ugm:GmailMessage)" Name="list_EmailRPA" />
@@ -144,15 +144,15 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - Download Gmail Attachment" sap:VirtualizedContainerService.HintSize="486,1387" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+    <TryCatch DisplayName="Try Catch - Download Gmail Attachment" sap:VirtualizedContainerService.HintSize="486,1419" sap2010:WorkflowViewState.IdRef="TryCatch_2">
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484,747" sap2010:WorkflowViewState.IdRef="Sequence_30">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484,775" sap2010:WorkflowViewState.IdRef="Sequence_30">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="Assign_8">
+          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="Assign_8">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[str_WorkFlowName]</OutArgument>
             </Assign.To>
@@ -160,8 +160,8 @@
               <InArgument x:TypeArguments="x:String" xml:space="preserve">Download Gmail Attachment --&gt; </InArgument>
             </Assign.Value>
           </Assign>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_20" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
-          <Sequence DisplayName="Init - Check If The Downloaded Files Exist to Delete" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_23">
+          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="450,179" sap2010:WorkflowViewState.IdRef="LogMessage_20" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
+          <Sequence DisplayName="Init - Check If The Downloaded Files Exist to Delete" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_23">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -208,7 +208,7 @@
             </ui:ForEachFileX>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_24" Message="[str_WorkFlowName + &quot;Init Process Ended.&quot;]" />
           </Sequence>
-          <Sequence DisplayName="Perform - Download Email Attachment" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_25">
+          <Sequence DisplayName="Perform - Download Email Attachment" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_25">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -270,7 +270,7 @@
             </umab:GmailApplicationCard>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_28" Message="[str_WorkFlowName + &quot;Perform Process Ended.&quot;]" />
           </Sequence>
-          <Sequence DisplayName="End - Check If The Downloaded File Exists" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_29">
+          <Sequence DisplayName="End - Check If The Downloaded File Exists" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_29">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -338,7 +338,7 @@
             </If>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_33" Message="[str_WorkFlowName + &quot;End Process Ended.&quot;]" />
           </Sequence>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="450,166" sap2010:WorkflowViewState.IdRef="LogMessage_34" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
+          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="450,170" sap2010:WorkflowViewState.IdRef="LogMessage_34" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>

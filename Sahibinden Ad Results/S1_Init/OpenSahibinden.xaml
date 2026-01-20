@@ -130,7 +130,7 @@
       <AssemblyReference>UiPath.Mail</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap2010:Annotation.AnnotationText="This WorkFlow Opens Sahibinden Website. To perform this operation successfully, it considers different kind of login paths and pop ups. " DisplayName="Open Sahibinden" sap:VirtualizedContainerService.HintSize="1281,1264" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence sap2010:Annotation.AnnotationText="This WorkFlow Opens Sahibinden Website. To perform this operation successfully, it considers different kind of login paths and pop ups. " DisplayName="Open Sahibinden" sap:VirtualizedContainerService.HintSize="1117,1296" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="str_WorkFlowName" />
       <Variable x:TypeArguments="x:Boolean" Name="bool_Parallel" />
@@ -147,15 +147,15 @@
         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <TryCatch DisplayName="Try Catch - Open Sahibinden" sap:VirtualizedContainerService.HintSize="452,1210" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+    <TryCatch DisplayName="Try Catch - Open Sahibinden" sap:VirtualizedContainerService.HintSize="452,1242" sap2010:WorkflowViewState.IdRef="TryCatch_1">
       <TryCatch.Try>
-        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="450,633" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="450,653" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign DisplayName="Assign - WorkFlowName" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="Assign_1">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">[str_WorkFlowName]</OutArgument>
             </Assign.To>
@@ -163,20 +163,20 @@
               <InArgument x:TypeArguments="x:String" xml:space="preserve">Open Sahibinden --&gt; </InArgument>
             </Assign.Value>
           </Assign>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Open Sahibinden" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="IfNotOpen" ScopeGuid="10bfbaf9-687d-458a-9661-9468339966ae" Version="V2" WindowResize="Maximize">
+          <ui:LogMessage DisplayName="Log Message - WorkFlow Start" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[str_WorkFlowName + &quot;Started.&quot;]" />
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Open Sahibinden" sap:VirtualizedContainerService.HintSize="416,61" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" IsIncognito="True" OpenMode="IfNotOpen" ScopeGuid="10bfbaf9-687d-458a-9661-9468339966ae" Version="V2" WindowResize="Maximize">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
                   <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                 </ActivityAction.Argument>
-                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022,1990" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="876,945" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:RetryScope DisplayName="Retry Scope - Open Sahibinden" sap:VirtualizedContainerService.HintSize="988,687" sap2010:WorkflowViewState.IdRef="RetryScope_7" RetryInterval="00:00:01">
+                  <ui:RetryScope DisplayName="Retry Scope - Open Sahibinden" sap:VirtualizedContainerService.HintSize="842,611" sap2010:WorkflowViewState.IdRef="RetryScope_7" RetryInterval="00:00:01">
                     <ui:RetryScope.ActivityBody>
                       <ActivityAction>
                         <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,283" sap2010:WorkflowViewState.IdRef="Sequence_47">
@@ -340,33 +340,33 @@
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </ui:RetryScope>
-                  <uix:NCheckState sap2010:Annotation.AnnotationText="Checks whether logging into the account is mandatory." DisplayName="Check App State 'Login Link'" sap:VirtualizedContainerService.HintSize="988,1083" sap2010:WorkflowViewState.IdRef="NCheckState_16" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" Version="V4">
+                  <uix:NCheckState sap2010:Annotation.AnnotationText="Checks whether logging into the account is mandatory." DisplayName="Check App State 'Login Link'" sap:VirtualizedContainerService.HintSize="842,106" sap2010:WorkflowViewState.IdRef="NCheckState_16" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" Version="V4">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Login Sahibinden" sap:VirtualizedContainerService.HintSize="484,761" sap2010:WorkflowViewState.IdRef="Sequence_79">
+                      <Sequence DisplayName="Login Sahibinden" sap:VirtualizedContainerService.HintSize="484,789" sap2010:WorkflowViewState.IdRef="Sequence_79">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,699" sap2010:WorkflowViewState.IdRef="Sequence_69">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,723" sap2010:WorkflowViewState.IdRef="Sequence_69">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="LogMessage_33" Message="[str_WorkFlowName + String.Format(&quot;Login Link '{0}' for Website '{1}' Detected.&quot;, in_URL_LoginLink ,str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
-                          <ui:LogMessage DisplayName="Log Message - Login Start" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="LogMessage_53" Message="[str_WorkFlowName + String.Format(&quot;Login {0} Started.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
-                          <ui:RetryScope sap2010:Annotation.AnnotationText="Logs in the account with credentials." DisplayName="Retry Scope - Login Sahibinden" sap:VirtualizedContainerService.HintSize="416,88" sap2010:WorkflowViewState.IdRef="RetryScope_9" NumberOfRetries="2">
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="LogMessage_33" Message="[str_WorkFlowName + String.Format(&quot;Login Link '{0}' for Website '{1}' Detected.&quot;, in_URL_LoginLink ,str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+                          <ui:LogMessage DisplayName="Log Message - Login Start" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="LogMessage_53" Message="[str_WorkFlowName + String.Format(&quot;Login {0} Started.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+                          <ui:RetryScope sap2010:Annotation.AnnotationText="Logs in the account with credentials." DisplayName="Retry Scope - Login Sahibinden" sap:VirtualizedContainerService.HintSize="416,92" sap2010:WorkflowViewState.IdRef="RetryScope_9" NumberOfRetries="2">
                             <ui:RetryScope.ActivityBody>
                               <ActivityAction>
-                                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="520,992" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                                <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="520,1064" sap2010:WorkflowViewState.IdRef="Sequence_86">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
-                                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486,964" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+                                  <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="486,1004" sap2010:WorkflowViewState.IdRef="TryCatch_2">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -374,13 +374,13 @@
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <TryCatch.Try>
-                                      <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484,165" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                                      <Sequence DisplayName="Try" sap:VirtualizedContainerService.HintSize="484,177" sap2010:WorkflowViewState.IdRef="Sequence_87">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <Sequence DisplayName="Init - Get Credential" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_71">
+                                        <Sequence DisplayName="Init - Get Credential" sap:VirtualizedContainerService.HintSize="450,61" sap2010:WorkflowViewState.IdRef="Sequence_71">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -391,16 +391,16 @@
                                           <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="[in_cre_Sahibinden]" CacheStrategy="None" DisplayName="Get Credential" FolderPath="[in_OQFolder]" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1" Password="[Password]" Username="[Username]" />
                                           <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_35" Message="[str_WorkFlowName + String.Format(&quot;Retrieving Credential of '{0}' Ended.&quot;, str_WorkFlowName.Trim.Replace(&quot; :&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
                                         </Sequence>
-                                        <Sequence DisplayName="Perform - Login Sahibinden" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Sequence_78">
+                                        <Sequence DisplayName="Perform - Login Sahibinden" sap:VirtualizedContainerService.HintSize="450,52" sap2010:WorkflowViewState.IdRef="Sequence_78">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" Text="[Username]" Version="V4">
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Email'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,296" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" Text="[Username]" Version="V4">
                                             <uix:NTypeInto.Target>
-                                              <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="4254f837-bffe-417d-80f7-1226e1e80442" DesignTimeRectangle="468, 426, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='*E-mail*' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" Guid="bce96e3a-a715-4725-8689-bdcb4ab45d9e" ScopeSelectorArgument="[String.Format(&quot;&lt;html app='chrome.exe' url='{0}*' /&gt;&quot;, in_URL_LoginLink)]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
+                                              <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="4254f837-bffe-417d-80f7-1226e1e80442" DesignTimeRectangle="468, 426, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='*mail*' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" Guid="bce96e3a-a715-4725-8689-bdcb4ab45d9e" ScopeSelectorArgument="[String.Format(&quot;&lt;html app='chrome.exe' url='{0}*' /&gt;&quot;, in_URL_LoginLink)]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
                                                 <uix:TargetAnchorable.Anchors>
                                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="0" />
                                                 </uix:TargetAnchorable.Anchors>
@@ -417,8 +417,8 @@
                                               </uix:VerifyExecutionTypeIntoOptions>
                                             </uix:NTypeInto.VerifyOptions>
                                           </uix:NTypeInto>
-                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_40" Message="[str_WorkFlowName + String.Format(&quot;Username '{0}' Typed.&quot;, Username)]" />
-                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" SecureText="[Password]" Version="V4">
+                                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="LogMessage_40" Message="[str_WorkFlowName + String.Format(&quot;Username '{0}' Typed.&quot;, Username)]" />
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,292" sap2010:WorkflowViewState.IdRef="NTypeInto_2" IsPassword="True" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" SecureText="[Password]" Version="V4">
                                             <uix:NTypeInto.Target>
                                               <uix:TargetAnchorable BrowserURL="acme-test.uipath.com/login" CVScreenId="cd01e849-71c2-4eca-ba2a-415b6ede4157" DesignTimeRectangle="468, 500, 485, 34" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl tag='LABEL' aaname='*Password*' /&gt;&lt;nav up='1' /&gt;&lt;webctrl tag='INPUT' /&gt;" Guid="b094bfa0-7fcd-4c13-b6cb-a68179710208" ScopeSelectorArgument="[String.Format(&quot;&lt;html app='chrome.exe' url='{0}*' /&gt;&quot;, in_URL_LoginLink)]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
                                                 <uix:TargetAnchorable.Anchors>
@@ -473,14 +473,14 @@
                                           <ActivityAction.Argument>
                                             <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
                                           </ActivityAction.Argument>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,285" sap2010:WorkflowViewState.IdRef="Sequence_88">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,297" sap2010:WorkflowViewState.IdRef="Sequence_88">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message - BE" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="LogMessage_50" Level="Warn" Message="[str_WorkFlowName + &quot;BE Hata: &quot; + exception.Message+&quot; at Source: &quot;+ exception.Source]" />
-                                            <Rethrow sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
+                                            <ui:LogMessage DisplayName="Log Message - BE" sap:VirtualizedContainerService.HintSize="450,181" sap2010:WorkflowViewState.IdRef="LogMessage_50" Level="Warn" Message="[str_WorkFlowName + &quot;BE Hata: &quot; + exception.Message+&quot; at Source: &quot;+ exception.Source]" />
+                                            <Rethrow sap:VirtualizedContainerService.HintSize="450,52" sap2010:WorkflowViewState.IdRef="Rethrow_1" />
                                           </Sequence>
                                         </ActivityAction>
                                       </Catch>
@@ -489,14 +489,14 @@
                                           <ActivityAction.Argument>
                                             <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
                                           </ActivityAction.Argument>
-                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,285" sap2010:WorkflowViewState.IdRef="Sequence_90">
+                                          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,297" sap2010:WorkflowViewState.IdRef="Sequence_90">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message - SE" sap:VirtualizedContainerService.HintSize="450,177" sap2010:WorkflowViewState.IdRef="LogMessage_51" Level="Warn" Message="[str_WorkFlowName + &quot;SE Hata: &quot; + exception.Message+&quot; at Source: &quot;+ exception.Source]" />
-                                            <Rethrow sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="Rethrow_2" />
+                                            <ui:LogMessage DisplayName="Log Message - SE" sap:VirtualizedContainerService.HintSize="450,181" sap2010:WorkflowViewState.IdRef="LogMessage_51" Level="Warn" Message="[str_WorkFlowName + &quot;SE Hata: &quot; + exception.Message+&quot; at Source: &quot;+ exception.Source]" />
+                                            <Rethrow sap:VirtualizedContainerService.HintSize="450,52" sap2010:WorkflowViewState.IdRef="Rethrow_2" />
                                           </Sequence>
                                         </ActivityAction>
                                       </Catch>
@@ -526,32 +526,32 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                           </ui:RetryScope>
-                          <ui:LogMessage DisplayName="Log Message - Login End" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_54" Message="[str_WorkFlowName + String.Format(&quot;Login {0} Ended.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+                          <ui:LogMessage DisplayName="Log Message - Login End" sap:VirtualizedContainerService.HintSize="416,174" sap2010:WorkflowViewState.IdRef="LogMessage_54" Message="[str_WorkFlowName + String.Format(&quot;Login {0} Ended.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
                         </Sequence>
                       </Sequence>
                     </uix:NCheckState.IfExists>
                     <uix:NCheckState.IfNotExists>
-                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,232" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="Sequence_70">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_55" Message="[str_WorkFlowName + String.Format(&quot;No Login Link for Website '{0}' Detected.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,174" sap2010:WorkflowViewState.IdRef="LogMessage_55" Message="[str_WorkFlowName + String.Format(&quot;No Login Link for Website '{0}' Detected.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
                       </Sequence>
                     </uix:NCheckState.IfNotExists>
                     <uix:NCheckState.Target>
-                      <uix:TargetAnchorable BrowserURL="secure.sahibinden.com/login" DesignTimeRectangle="764, 196, 430, 80" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='infoBoldText' tag='H6' aaname='*In order to provide you a better experience*' /&gt;" Guid="793e651e-175d-4b02-a5ff-eccc06c0acb6" InformativeScreenshot="0f1bd4444a928bbe230db77055319c55.png" ScopeSelectorArgument="[string.Format(&quot;&lt;html app='chrome.exe' url='{0}*' /&gt;&quot;, in_URL_LoginLink)]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete" />
+                      <uix:TargetAnchorable BrowserURL="secure.sahibinden.com/login" DesignTimeRectangle="764, 196, 430, 80" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl id='infoBoldText' tag='H6' visibleinnertext='*you need to log in to sahibinden.com*' /&gt;" Guid="793e651e-175d-4b02-a5ff-eccc06c0acb6" InformativeScreenshot="0f1bd4444a928bbe230db77055319c55.png" ScopeSelectorArgument="[string.Format(&quot;&lt;html app='chrome.exe' url='{0}*' /&gt;&quot;, in_URL_LoginLink)]" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete" />
                     </uix:NCheckState.Target>
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
                   </uix:NCheckState>
-                  <Parallel sap:VirtualizedContainerService.HintSize="988,158" sap2010:WorkflowViewState.IdRef="Parallel_1">
+                  <Parallel sap:VirtualizedContainerService.HintSize="842,162" sap2010:WorkflowViewState.IdRef="Parallel_1">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -561,14 +561,14 @@
                     <Parallel.CompletionCondition>[bool_Parallel = True]</Parallel.CompletionCondition>
                     <uix:NCheckState sap2010:Annotation.AnnotationText="Checks if the Sahibinden Website is open and closes pop up which occurs when the Website is opened first time." DisplayName="Check App State 'Sahibinden'" sap:VirtualizedContainerService.HintSize="374,86" sap2010:WorkflowViewState.IdRef="NCheckState_15" ScopeIdentifier="10bfbaf9-687d-458a-9661-9468339966ae" Timeout="30" Version="V4">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="490,1763" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="490,1771" sap2010:WorkflowViewState.IdRef="Sequence_64">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="456,177" sap2010:WorkflowViewState.IdRef="LogMessage_29" Message="[str_WorkFlowName + String.Format(&quot;Website '{0}' Opened.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="456,181" sap2010:WorkflowViewState.IdRef="LogMessage_29" Message="[str_WorkFlowName + String.Format(&quot;Website '{0}' Opened.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
                           <uix:NClosePopup PopupException="{x:Null}" DisplayName="Close Popup" sap:VirtualizedContainerService.HintSize="456,57" sap2010:WorkflowViewState.IdRef="NClosePopup_3" PopupAppearTimeout="3" PopupHandled="[handled_Popup]" PreferredButtons="[in_popups.Cast(Of String).ToArray()]" Version="V4">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -655,13 +655,13 @@
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,355" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,363" sap2010:WorkflowViewState.IdRef="Sequence_65">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Warn" Message="[str_WorkFlowName + String.Format(&quot;Opening Website '{0}' Failed.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,181" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Warn" Message="[str_WorkFlowName + String.Format(&quot;Opening Website '{0}' Failed.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1))]" />
                           <Throw Exception="[New BusinessRuleException(str_WorkFlowName + String.Format(&quot;Opening Website '{0}' Failed.&quot;, str_WorkFlowName.Trim.Replace(&quot; --&gt;&quot;, &quot;&quot;).Split({&quot; &quot;c}, 2)(1)))]" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Throw_6" />
                         </Sequence>
                       </uix:NCheckState.IfNotExists>
@@ -795,7 +795,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
           </uix:NApplicationCard>
-          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
+          <ui:LogMessage DisplayName="Log Message - WorkFlow End" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[str_WorkFlowName + &quot;Ended.&quot;]" />
         </Sequence>
       </TryCatch.Try>
       <TryCatch.Catches>
@@ -804,13 +804,13 @@
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="ui:BusinessRuleException" Name="exception" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,174" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="450,182" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Throw sap2010:Annotation.AnnotationText="" DisplayName="Throw - BE" Exception="[New BusinessRuleException(str_WorkFlowName + exception.Message + &quot; at Source : &quot; + exception.Source)]" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Throw_1">
+              <Throw sap2010:Annotation.AnnotationText="" DisplayName="Throw - BE" Exception="[New BusinessRuleException(str_WorkFlowName + exception.Message + &quot; at Source : &quot; + exception.Source)]" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="Throw_1">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>

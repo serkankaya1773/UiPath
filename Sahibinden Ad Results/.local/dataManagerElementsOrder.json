@@ -23,8 +23,6 @@
         "TransactionID&StateMachine_1",
         "dt_TransactionData&StateMachine_1",
         "ConsecutiveSystemExceptions&StateMachine_1",
-        "variable1&StateMachine_1",
-        "variable2&StateMachine_1",
         "ShouldStop&Sequence_25"
       ],
       "ArgumentsSectionElementsOrder": [
